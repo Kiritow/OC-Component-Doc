@@ -59,6 +59,59 @@ This section is available to the following device:
 > component.ic2_te_induction_furnace
 >
 > component.ic2_te_recycler
+>
+> component.ic2_te_cropmatron
+>
+> component.ic2_te_crop_harvester
+>
+> component.ic2_te_electric_furnace
+>
+> component.ic2_te_metal_former
+>
+> component.ic2_te_ore_washing_plant
+>
+> component.ic2_te_advanced_miner
+>
+> component.ic2_te_miner
+>
+> component.ic2_te_replicator
+>
+> component.ic2_te_scanner
+>
+> component.ic2_te_electrolyzer
+>
+> component.ic2_te_chunk_loader
+>
+> component.ic2_te_batch_crafter
+>
+> component.ic2_te_rci_rsh
+>
+> component.ic2_te_rci_lzh
+>
+> component.ic2_te_chargepad_batbox
+>
+> component.ic2_te_chargepad_cesu
+>
+> component.ic2_te_chargepad_mfe
+>
+> component.ic2_te_chargepad_mfsu
+>
+> component.ic2_te_batbox
+>
+> component.ic2_te_cesu
+>
+> component.ic2_te_mfe
+>
+> component.ic2_te_mfsu
+>
+> component.ic2_te_lv_transformer
+>
+> component.ic2_te_mv_transformer
+>
+> component.ic2_te_hv_transformer
+>
+> component.ic2_te_ev_transformer
+
 
 If device is invalid or not supported, use `component.ic2_te_invalid` instead.
 
@@ -100,4 +153,26 @@ getReactorEUOutput  function():number -- Get the reactor's base EU/t value.
 getMaxHeat  function():number -- Get the reactor's maximum heat before exploding.
 
 getHeat function():number -- Get the reactor's heat.
+```
+
+## Mass Fab
+
+This section is available to the following device:
+
+> component.mass_fab
+
+```Lua
+address -- Address of device
+type    mass_fab
+slot    -1
+
+getProgress function
+
+getSinkTier function
+
+getCapacity function
+
+getSourceTier   function
+
+getEnergy   function
 ```
